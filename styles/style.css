@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    
+}
+
+/* navbar section related code */
+#navbar-section{
+    background-color: #1A0B2E;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    align-items: center;
+    padding: 15px 10%;
+}
+
+.logo{
+    width: 219px;
+    height: 32px;
+}
+.logo .tech{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.wave{
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    
+}
+.nav-menu ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.icon{
+    display: none;
+}
+.nav-button{
+    text-align: right;
+}
+.subscribe-btn{
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    padding: 13px 16px;
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-weight: 550;
+    
+}
+
+
+
+/* Responsiveness related code */
+
+@media screen and (max-width:576px){
+    .navbar{
+        grid-template-columns:1fr auto;
+    }
+    .logo{
+        padding: 10px auto;
+    }
+    .nav-menu ul{
+        display: none;
+    }
+    .icon{
+        display: inline;
+    }
+    .subscribe-btn{
+        display: none;
+    }
+}
