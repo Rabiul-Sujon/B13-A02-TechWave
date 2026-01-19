@@ -271,6 +271,56 @@ body{
     color: #cdc4c4;
 }
 
+/* feature section related codes */
+
+#feature-section{
+    background-color: #1A0B2E;
+    padding: 80px 10%;
+}
+.section-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 20px
+}
+.episode-card{
+    background-color: #230E3D; 
+    color: white;
+    border-radius: 15px;
+    width: 360px;
+    height: 490px;
+    overflow: hidden;
+}
+.card-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding:10px 15px ;
+    
+
+}
+.card-details{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color:#cdc4c4;
+    padding:10px 15px ;
+
+}
+.duration{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
 
 
 /* Responsiveness related code */
@@ -321,8 +371,18 @@ body{
         grid-area: auto;
     }
     .section-title{
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 600;
+    }
+    .card-title{
+        font-weight: 400;
+    }
+    /* feature-section */
+    .section-heading{
+        font-size: 2rem;  
+    }
+    .card-heading{
+        font-weight: 400;
     }
     
 
