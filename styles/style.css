@@ -322,6 +322,29 @@ body{
     margin-left: 15px;
 }
 
+/* footer section */
+#footer-section{
+    background-image: url(../assets/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.footer-logo{
+    width: 219px;
+    height: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+.footer-logo span{
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
 
 /* Responsiveness related code */
 
