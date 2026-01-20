@@ -316,7 +316,7 @@ body{
     display: flex;
     gap: 30px;
     justify-content: center;
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
     padding: 20px
 }
 
@@ -348,6 +348,65 @@ body{
     display: flex;
     gap: 10px;
     margin-left: 15px;
+}
+
+/* Meet the host section */
+#meet-host{
+    background-color: #1A0B2E;
+    padding: 60px ;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.host-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.host-card{
+    background-color: #230E3D;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.host-name{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.host-details{
+    font-size: 0.9rem;
+    color: #cdc4c4;
+    margin-bottom: 20px;
+}
+
+.host-socials{
+    display: flex;
+    gap: 20px;
+}
+
+.social-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #2c2a2a; 
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.host-socials img{
+    width: 15px;
+    height: 15px;
 }
 
 /* footer section */
@@ -418,67 +477,6 @@ body{
     height: 20px;
 }
 
-/* Meet the host section */
-#meet-host{
-    background-color: #1A0B2E;
-    padding: 60px ;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.host-title{
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 40px;
-}
-
-.host-card{
-    background-color: #230E3D;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    text-align: left;
-    gap: 30px;
-    padding: 40px;
-    border-radius: 20px;
-}
-
-.host-name{
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.host-details{
-    font-size: 0.9rem;
-    color: #cdc4c4;
-    margin-bottom: 20px;
-}
-
-.host-socials{
-    display: flex;
-    gap: 20px;
-}
-
-.social-circle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45px;
-    height: 45px;
-    border: 1px solid #2c2a2a; 
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.host-socials img{
-    width: 15px;
-    height: 15px;
-}
-
-
-
 
 /* Responsiveness related code */
 
@@ -540,6 +538,9 @@ body{
     /* feature-section */
     .section-heading{
         font-size: 2rem;  
+    }
+    .card-container{
+        flex-wrap: wrap;
     }
 
     .card-heading{
