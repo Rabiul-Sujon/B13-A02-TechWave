@@ -1,3 +1,5 @@
+/* universal code */
+
 *{
     margin: 0;
     padding: 0;
@@ -237,12 +239,15 @@ body{
     color: #FFFFFF;
     text-align: center;
 }
+
 .section-title{
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 40px;
 }
+
+/* grid distribution idea */
 
     .advantage-audio { grid-area: audio; }
     .advantage-mobile { grid-area: mobile; }
@@ -261,6 +266,7 @@ body{
     "audio      global     global"
     "interview  interview  resource";
 }
+
 .advantage-card{
     background-color: rgba(53, 17, 101, 0.4);
     text-align: left;
@@ -271,16 +277,19 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
 .adv-icon{
     width: 45px;
     margin-bottom: 20px;
 }
+
 .card-title{
     font-size: 1.5rem;
     font-weight: 600;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+
 .card-description{
     font-size: 1rem;
     line-height: 24px;
@@ -293,6 +302,7 @@ body{
     background-color: #1A0B2E;
     padding: 80px 10%;
 }
+
 .section-heading{
     font-size: 3rem;
     font-weight: 700;
@@ -309,6 +319,7 @@ body{
     flex-wrap: wrap; 
     padding: 20px
 }
+
 .episode-card{
     background-color: #230E3D; 
     color: white;
@@ -317,14 +328,14 @@ body{
     height: 490px;
     overflow: hidden;
 }
+
 .card-heading{
     font-size: 1.5rem;
     font-weight: 500;
     color: #FFFFFF;
     padding:10px 15px ;
-    
-
 }
+
 .card-details{
     font-size: 0.8rem;
     font-weight: 300;
@@ -332,6 +343,7 @@ body{
     padding:10px 15px ;
 
 }
+
 .duration{
     display: flex;
     gap: 10px;
@@ -339,6 +351,7 @@ body{
 }
 
 /* footer section */
+
 #footer-section{
     background-image: url(../assets/footer-bg.png);
     background-size: cover;
@@ -353,6 +366,7 @@ body{
     padding: 40px 20px;
     width: 100%;
 }
+
 .footer-content{
     display: flex;
     flex-direction: column;
@@ -368,7 +382,6 @@ body{
     font-weight: 800;
     margin-bottom: 27px;
 }
-
 
 .footer-logo span{
     background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
@@ -399,6 +412,7 @@ body{
     font-size: 0.6rem;
     margin-left: 23px;
 }
+
 .social-item img{
     width: 20px;
     height: 20px;
@@ -417,6 +431,7 @@ body{
     font-weight: 700;
     margin-bottom: 40px;
 }
+
 .host-card{
     background-color: #230E3D;
     max-width: 1100px;
@@ -428,30 +443,35 @@ body{
     padding: 40px;
     border-radius: 20px;
 }
+
 .host-name{
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
+
 .host-details{
     font-size: 0.9rem;
     color: #cdc4c4;
     margin-bottom: 20px;
 }
+
 .host-socials{
     display: flex;
     gap: 20px;
 }
+
 .social-circle{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 45px;
     height: 45px;
-    border: 1px solid #2c2a2a; /* Thin light border */
+    border: 1px solid #2c2a2a; 
     border-radius: 50%;
     transition: all 0.3s ease;
 }
+
 .host-socials img{
     width: 15px;
     height: 15px;
@@ -460,10 +480,8 @@ body{
 
 
 
-
-
-
 /* Responsiveness related code */
+
 @media screen and (max-width:576px){
     /* navbar */
     .navbar{
@@ -493,6 +511,7 @@ body{
     .statistics-container{
         grid-template-columns: repeat(2, 1fr);
     }
+
     .about-title{
         font-size: 2rem;
         font-weight: 600;
@@ -504,20 +523,25 @@ body{
         grid-template-areas: none;
         gap: 20px;
     }
+
     .advantage-card{
         grid-area: auto;
     }
+
     .section-title{
         font-size: 2rem;
         font-weight: 600;
     }
+
     .card-title{
         font-weight: 400;
     }
+    
     /* feature-section */
     .section-heading{
         font-size: 2rem;  
     }
+
     .card-heading{
         font-weight: 400;
     }
@@ -526,13 +550,16 @@ body{
      #meet-host{
         padding: 20px;
      }
+
      .host-title{
         font-size: 2.2rem;
      }
+
     .host-card{
         flex-direction: column;
         text-align: center;
     }
+
     .host-socials{
         justify-content: center;
     }
@@ -552,16 +579,15 @@ body{
         justify-content: center;
         width: 100%;
     }
+
     .social-links .social-item:nth-child(n+3) {
     margin-left: 30px;
     }
     
     .copyright {
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-top: 20px;
         margin-right: 20px; 
     }
-
-   
-    
+  
 }
