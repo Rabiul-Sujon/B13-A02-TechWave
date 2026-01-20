@@ -69,6 +69,22 @@ body{
     border-radius: 40px;
     color: #FFFFFF;
     font-weight: 550;
+    animation: easy-pulse 3s infinite;
+}
+/* nav subscribe btn animation scale */
+@keyframes easy-pulse {
+    0% {
+        transform: scale(1); /* Normal size */
+        box-shadow: 0 0 0 0 #230E3D;
+    }
+    50% {
+        transform: scale(1.05); /*  expanding */
+        box-shadow: 0 0 3px 3px #00ffa3;
+    }
+    100% {
+        transform: scale(1); /* Back to normal */
+        box-shadow: 0 0 0 0 #230E3D;
+    }
 }
 
 /* Hero section related code */
